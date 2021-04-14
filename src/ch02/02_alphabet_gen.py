@@ -1,3 +1,6 @@
+import string
+
+
 def generate(alphabet, max_len):
     if max_len <= 0: return
     for c in alphabet:
@@ -26,4 +29,3 @@ if words2a == words2b:
     print("[PASS]")
 else:
     print("[FAIL]")
-    
